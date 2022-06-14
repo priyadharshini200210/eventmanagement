@@ -1,0 +1,8 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Admin Login</title>
+  <link rel="icon" href="logo.jpg" type="image/icon type">
+</head>
+<body></body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+    <!-- Bootstrap CSS -->
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+    <title>KEC|Events</title>
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.jpg" alt="" width="50" height="60"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: white;" href="#">Home</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;">
+            Department
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="civil.html">Civil Engineering</a></li>
+            <li><a class="dropdown-item" href="mechanical.html">Mechanical Engineering</a></li>
+            <li><a class="dropdown-item" href="mechatronics.html">Mechatronics Engineering</a></li>
+            <li><a class="dropdown-item" href="automobile.html">Automobile Engineering</a></li>
+            <li><a class="dropdown-item" href="chemical.html">Chemical Engineering</a></li>
+            <li><a class="dropdown-item" href="food.html">Food Technology</a></li>
+            <li><a class="dropdown-item" href="EEE.html">Electrical and Electronics Engineering</a></li>
+            <li><a class="dropdown-item" href="EIE.html">Electronics and Instrumentation Engineering</a></li>
+            <li><a class="dropdown-item" href="ECE.html">Electronics and Communication Engineering</a></li>
+            <li><a class="dropdown-item" href="computerscienceandengineering.html">Computer Science and Engineering</a></li>
+            <li><a class="dropdown-item" href="CSD.html">Computer Science and design</a></li>
+            <li><a class="dropdown-item" href="IT.html">Information Technology</a></li>
+            <li><a class="dropdown-item" href="AIandML.html">Artificial Intelligence and Machine learning</a></li>
+            <li><a class="dropdown-item" href="AIandDS">Artificial Intelligence and Data Science</a></li>
+          </ul>
+        </li>
+    
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;" id="navbarScrollingDropdown">
+            Clubs
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1W-aqpX2dJzjAaoYZoFTno_L0s348oqKYj9Icp-ck39c/edit#gid=0">National Service Scheme</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1KbRD5X1krC2G9y0UM6mzYeh3HXO7_jQLSGa8ll_ymZ0/edit#gid=0">National Cadet Crops</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1jKv0oKBCXhI0w9W_Xk_PgKfIEwgnpFZfuUVytb4B7f4/edit#gid=0">Higher Education/Competitive Examination cell</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1pFszsIAhya6J_1fuHPp1gWy3wIuoddLaR48tTd_t80E/edit?usp=sharing_eil_dm&ts=621c653b">Entrepreneurship and Management Development cell(EMDC)&Institute Innovation Council</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1TpipF0jPw29GJdcTNepkvRRAkGLWVOptIGbAs4xVHmk/edit?usp=sharing_eil_dm&ts=621c6567">Gender Equity club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1JgVXz_Tc4KJKwvnSx8xxOs362H8XoRwwlSuHYDumyp0/edit?usp=sharing_eil_dm&ts=621c65a3">Music club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1tY4_35Ty8raZJe6Q4qZXwnB9G9YlQ_jnbr7kgY9egkc/edit?usp=sharing_eil_dm&ts=621c65cb">Quiz club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1X62zx4C_jR9wgoSUzyOQQ4YV-aw69S0yt0eRp2pteQ4/edit?usp=sharing_eil_dm&ts=621c6605">Women Development club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1LLQn-djhTtqznW23G4ISM9nfn-tHX0jjuulpwEx5TYY/edit?usp=sharing_eil_dm&ts=621c6630">Self Development club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1uOUBypuPGdS7SDMOtPI4CS-1N7Lo462GIelW-iapzJ8/edit#gid=0">Yoga & Meditation club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1BFzU0LnjOKDkBVxxCiA6_bCCwtGoMoJnHCsPGn_NAWE/edit?usp=sharing_eil_dm&ts=621c667e">Photography club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1umiI0Dzldettagca1JDSQaYq-bXCYwsvwACEfrqKDJ0/edit?usp=sharing_eil_dm&ts=621c66a5">Cultural club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1KJdy882Dz15sDyPbOajqnvStYcz5Ojxwgit30uqUozY/edit?usp=sharing_eil_dm&ts=621c6745">Rotaract club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/173bJT7j7e2ODKC-5TzLjwJhqG1GDIjCbpFWwPuKdAGg/edit?usp=sharing_eil_dm&ts=621c6782">Ravi Varma Creative club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1UqehQdib-3lR4Acp8PxAm2E11so5aY7PjgblpiEcHpc/edit?usp=sharing_eil_dm&ts=621c67ac">Android Apllication Development club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1pb7uyVKnMIn8GFcLWPoydI3Y7RfWGd7zJZQ_PdQZiJU/edit?usp=sharing_eil_dm&ts=621c67d8">Citizen Consumer/Legal Literacy club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/16EUSWgp6exFwaaqO9eGdd4qDjykj35sOdJjOvUAPFXQ/edit?usp=sharing_eil_dm&ts=621c68be">Aero Modelling club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1cG76zwLuDzCWg5WFMBBC-ebJkYttHVrSeesnlgrX6gQ/edit?usp=sharing_eil_dm&ts=621c68f0">Energy & Environment Conservation club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1McQ_7qAcb3hMpBKBBBIVYCTSZp3Mh8PodtQoL1rnhho/edit#gid=0">English Proficiency club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1IT5Nr8BXeczyfdnRIZ5Rabd8mUil81CWLifkU-b_VKI/edit?usp=sharing_eil_dm&ts=621c6915">Radio Control club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1CzV3MR7oVPTQZCUvrn7_2KdcGt-NVIZmmMvU87spvds/edit#gid=0">Srinivasa Ramanujan Mathematics Club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/11lLCHUxovbfg7LHcxmwHk6Wfbsq9BjRKX_8od1zlqQw/edit?usp=sharing_eil_dm&ts=621c6937">IGNOU</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1RKX8ZPz9G0Sw-IyYXnjLNXxcEuQvzyofODBdaiGj44s/edit?usp=sharing_eil_dm&ts=621c6954">Youth Red Cross</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1RKX8ZPz9G0Sw-IyYXnjLNXxcEuQvzyofODBdaiGj44s/edit?usp=sharing_eil_dm&ts=621c6954">Robotics club</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1k6yoa8oIIbu1x7hKjBujymguJksXCQhU78j7IrRVm8s/edit?usp=sharing_eil_dm&ts=621c699d">CII-Yl Yuva Kongu Engineering College Chaupal</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1IHacNhqbiv19vQfbrKRqVfZYLQ-nbYsTAAtfhRlmPLY/edit#gid=0">Tamil Mandram</a></li>
+            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1MA4ArmrVNzbE9mPIrvzW_3PWg63KOOh_nw_OMhWMkx0/edit?usp=sharing_eil_dm&ts=621c69b6">Pasumai Vanam</a></li>
+
+          </ul>
+        </li>
+      </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary me-md-2" type="button"><a href="admin.html"  style="text-decoration: none;"><strong style="color:white">Admin Login</strong></a></button>
+<button class="btn btn-primary me-md-2" type="button"><a href="https://kongu.ac.in/"  style="text-decoration: none;"><strong style="color:white">About KEC</strong></a></button>
+</div>
+
+    </div>
+  </div>
+</nav>
+
+<center><p style="color:white; font-size: calc(1rem + 1vw);margin-top:100px;font-family: cursive;"></p></center><br><br>
+<form action="confirmform.html">
+<center><button class="button"style="vertical-align:middle"><span>Add Event</span></button></center></form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
